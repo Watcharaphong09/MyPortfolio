@@ -111,7 +111,13 @@ header.sticky ul li a::after{
 }
 
 .highlight{
-    color: rgb(51, 0, 255);
+    font-weight: bolder;
+    color: #32577F;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.content{
+    animation: sildeLeft 1s ease infinite;
 }
 
 .content h1{
@@ -133,6 +139,19 @@ section .header{
     font-size: 3rem;
     border-bottom: 2px solid;
     color: #fff;
+}
+
+summary{
+    color: black;
+}
+
+details{
+    width: fit-content;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #F2C14E;
+    border-bottom: px siold black;
 }
 
 .aboutme{
@@ -402,28 +421,15 @@ footer .colum .socials a:hover{
 }
 
 .to-top{
-    background: #fff;
+    display: none;
     position: fixed;
     bottom: 16px;
-    right: 10px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-size: 32px;
     color: #1f1f1f;
     text-decoration: none;
-    opacity: 0;
-    pointer-events: none;
+    cursor: pointer;
     transition: all .4s;
-}
-
-.to-top.active{
-    bottom: 32px;
-    pointer-events: all;
-    opacity: 1;
+    z-index: 100;
 }
 
 html{
@@ -439,37 +445,38 @@ html{
     position: relative;
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     justify-content: center;
     align-items: center;
     background: #FAF2BE;
 }
 
 .text{
-    color: #fff;
     position: absolute;
+    color: #fff;
     font-family: 'Mochiy Pop One', sans-serif;
-    font-size: 10vw;
-	margin: 0;
-	padding: 0;
+    font-size: 10rem;
     top: 4rem;
     width: 100%;
     text-align: center;
+    align-items: center;
 }
 
 .text span{
+    
     font-size: 2rem;
-    padding: 0;
     animation: Flaottext 4s ease-in-out infinite,slideLeft .5s ease;
     animation-delay: calc(0.1s * var(--i));
     text-shadow: 0px 0px 5px #F2C14E;
 }
 
 .text p{
-    font-size: 10vw;
+    justify-content: center;
+    display: flex;
+    font-size: 6vw;
     margin-top: 1px;
     opacity: 0;
-    animation: slideRight 1s ease forwards;
+    animation: slideRight 1s ease forwards,Flaottext 4s ease-in-out infinite;
     animation-delay: 1s;
     transform: translate(-3%);
     font-weight: 700;
@@ -512,16 +519,12 @@ section .text span{
     transition: 3s;
 }
 
-.scroll-left{
-    opacity: 0;
-    transform: translateX(100px);
-    transition: 2s;
-}
-
 .show-items{
     opacity: 1;
     transform: translateX(0);
 }
+
+
 
 @keyframes Flaottext {
     0% {
@@ -575,6 +578,9 @@ section .text span{
 }
 
 @media (width < 900px) {
+    header{
+        
+    }
     .certificate{
         max-width: 100%;
         grid-template-columns: repeat(2, 1fr);
@@ -600,9 +606,6 @@ section .text span{
         font-size: 1rem;
         color: #fff;
     }
-    header{
-        width: 100%;
-    }
     .aboutme{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -621,7 +624,3 @@ section .text span{
     .active-items p{
         font-size: .8rem;
     }
-    header.sticky {
-        background: none;
-    }
-}

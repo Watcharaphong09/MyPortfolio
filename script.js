@@ -38,16 +38,6 @@ previewBox.forEach(close =>{
     };
 });
 
-const toTop = document.querySelector(".to-top");
-
-window.addEventListener("scroll", () => {
-    if (window.pageYOffset > 100) {
-        toTop.classList.add("active");
-    } else {
-        toTop.classList.remove("active");
-    }
-});
-
 window.addEventListener("scroll", function(){
     var header = document.querySelector("header");
     header.classList.toggle("sticky", window.scrollY > 20);
@@ -96,6 +86,20 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
 }
+
+// Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+};
 
 function topFunction() {
     document.documentElement.scrollTop = 0;
