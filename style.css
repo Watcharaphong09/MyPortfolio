@@ -481,11 +481,7 @@ html{
     transform: translate(-3%);
     font-weight: 700;
     text-shadow: 
-      .5vw .5vw 0px #F2C14E, 
-      1vw 1vw 0px #F78154, 
-      1.5vw 1.5vw 0px #CC2936, 
-      2vw 2vw 0px #954E5A, 
-      2.5vw 2.5vw 0px #052939;
+      .5vw .5vw 0px #F2C14E;
 }
 section .text span{
     position: relative;
