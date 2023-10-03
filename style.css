@@ -500,19 +500,19 @@ section .text span{
 .scroll-scale{
     opacity: 0;
     transform: scale(.9);
-    transition: all 2s;
+    transition: all 1s;
 }
 
 .scroll-Bottom{
     opacity: 0;
-    transform: translateY(300px);
-    transition: 2s;
+    transform: translateY(200px);
+    transition: 1s;
 }
 
 .scroll-top{
     opacity: 0;
-    transform: translateY(-300px);
-    transition: 3s;
+    transform: translateY(-200px);
+    transition: 1s;
 }
 
 .show-items{
