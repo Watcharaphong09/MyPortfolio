@@ -424,6 +424,7 @@ footer .colum .socials a:hover{
     display: none;
     position: fixed;
     bottom: 16px;
+    right: 12px;
     font-size: 32px;
     color: #1f1f1f;
     text-decoration: none;
