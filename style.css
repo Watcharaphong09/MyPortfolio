@@ -25,7 +25,7 @@ body{
 }
 
 header{
-    justify-content: center;
+    justify-content: space-between;
     position: fixed;
     width: 100%;
     display: flex;
@@ -86,6 +86,10 @@ header.sticky ul li a{
 header.sticky ul li a::after{
     position: absolute;
     background-color: #fff;
+}
+
+header.sticky h1{
+    color: #fff;
 }
 
 .active {
@@ -162,7 +166,7 @@ details{
 }
 
 .personal{
-    background-color: #FFAB24;
+    background-color: #F2C14E;
     padding: 1rem;
     border: 2px solid;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
@@ -302,10 +306,11 @@ details{
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
+    background: white;
     border-radius: 0 3px 3px 0;
     user-select: none;
 }
@@ -321,7 +326,8 @@ details{
 }
 
 .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
+    color: white;
+    background-color: rgba(0,0,0,0.5);
   }
 
 .certificate{
@@ -387,11 +393,10 @@ footer .colum .socials a:hover{
 /* hamburger menu */
 
 .ham-menu {
-    position: fixed;
+    position: relative;
     display: inline-block;
     cursor: pointer;
-    right: 1rem;
-    top: .5rem;
+    right: 1px;
   }
   
   .bar1, .bar2, .bar3 {
@@ -464,8 +469,8 @@ html{
 }
 
 .text span{
-    letter-spacing: 1rem;
-    font-size: 2rem;
+    letter-spacing: 10px;
+    font-size: 4vw;
     animation: Flaottext 4s ease-in-out infinite,slideLeft .5s ease;
     text-shadow: 0px 0px 5px #F2C14E;
 }
@@ -570,13 +575,11 @@ section .text span{
 @media (min-width: 900px) {
     .ham-menu{
         display: none;
+        right: 1px;
     }    
 }
 
 @media (width < 900px) {
-    header{
-        
-    }
     .certificate{
         max-width: 100%;
         grid-template-columns: repeat(2, 1fr);
@@ -591,7 +594,7 @@ section .text span{
         position: absolute;
         background-color: rgba(17,24,39,255);
         top: 100%;
-        right: 2%;
+        right: 2rem;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -619,4 +622,11 @@ section .text span{
     }
     .active-items p{
         font-size: .8rem;
+    }
+    header{
+        padding: 2rem;
+    }
+    header.sticky{
+        padding-right: 2rem;
+        padding-left: 2rem;
     }
