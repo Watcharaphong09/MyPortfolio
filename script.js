@@ -46,25 +46,6 @@ window.addEventListener("scroll", function () {
 const navLinkEls = document.querySelectorAll(".nav__link");
 const containerEls = document.querySelectorAll(".container");
 
-let currentSection = "home";
-window.addEventListener("scroll", () => {
-    containerEls.forEach((containerEL) => {
-        if (
-            window.scrollY >=
-            containerEL.offsetTop - containerEL.clientHeight / 7
-        ) {
-            currentSection = containerEL.id;
-        }
-    });
-
-    navLinkEls.forEach((navLinkEL) => {
-        if (navLinkEL.href.includes(currentSection)) {
-            document.querySelector(".active").classList.remove("active");
-            navLinkEL.classList.add("active");
-        }
-    });
-});
-
 
 // Get the button:
 let mybutton = document.getElementById("myBtn");
@@ -108,19 +89,3 @@ scrollLeft.forEach((el) => obsever.observe(el));
 
 const scrollRight = document.querySelectorAll(".scroll-right");
 scrollRight.forEach((el) => obsever.observe(el));
-
-srcollContainer.addEventListener("wheel", (evt) => {
-    evt.preventDefault();
-    srcollContainer.scrollLeft += evt.deltaY;
-    srcollContainer.style.scrollBehavior = "auto";
-});
-
-nextBtn.addEventListener("click", () => {
-    srcollContainer.style.scrollBehavior = "smooth";
-    srcollContainer.scrollLeft += 640;
-});
-
-backBtn.addEventListener("click", () => {
-    srcollContainer.style.scrollBehavior = "smooth";
-    srcollContainer.scrollLeft -= 640;
-});

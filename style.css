@@ -145,55 +145,6 @@ section .header{
     color: #fff;
 }
 
-summary{
-    color: black;
-}
-
-details{
-    width: fit-content;
-    padding: 10px;
-    color: #fff;
-    border-radius: 10px;
-    background-color: #F2C14E;
-    border-bottom: px siold black;
-}
-
-.aboutme{
-    margin-top: 4rem;
-    display: grid;
-    grid-template-columns: repeat(3 ,1fr);
-    gap: 2rem;
-}
-
-.personal{
-    background-color: #F2C14E;
-    padding: 1rem;
-    border: 2px solid;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
-    border-radius: 15px;
-}
-
-.information{
-    font-size: 25px;
-}
-
-.subin{
-    color: white;
-}
-
-.grid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
-}
-
-.transcript{
-    margin-top: 5rem;
-    padding: 3px;
-    box-shadow: 0px 0px 10px black;
-    gap: 5rem;
-}
-
 .actnn{
     width: 100%;
     display: grid;
