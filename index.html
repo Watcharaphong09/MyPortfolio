@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- remixicon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+    <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- google fonts -->
     <link rel="stylesheet" href="style.css">
+    <!-- animate -->
     <link rel="stylesheet" href="animation.css">
+    <!-- wave -->
     <link rel="stylesheet" href="wave.css">
+
     <title>Portfolio</title>
 </head>
+
 <body>
-<header>
-    <h1>Portfolio</h1>
+    <header>
+        <!-- Home & Navbar -->
+        <h1>Portfolio</h1>
         <ul class="menu" id="myMenu">
             <li class="link"><a class="nav__link active" href="#home">Home</a></li>
             <li class="link"><a class="nav__link" href="#aboutme">About me</a></li>
@@ -23,291 +32,336 @@
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
-        </div> 
-</header>
-<section class="Parallax">
-    <div class="background">
-        <div class="cube"></div>
-        <div class="cube"></div>
-        <div class="cube"></div>
-        <div class="cube"></div>
-       <div class="cube"></div>
-     </div>
-     <div class="text">
-        <span>My Portfolio</span>
-        <p>Watcharaphong<br>Malang</p>  
-    </div>
-</section>
+        </div>
+    </header>
+    <section class="Parallax">
+        <div class="background">
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+        </div>
+        <div class="text">
+            <span>My Portfolio</span>
+            <p>Watcharaphong<br>Malang</p>
+        </div>
+    </section>
 
-<div class="waveWrapper waveAnimation">
-    <div class="waveWrapperInner bgTop">
-      <div class="wave waveTop" style="background-image: url(image/wave.png);"></div>
+    <div class="waveWrapper waveAnimation">
+        <div class="waveWrapperInner bgTop">
+            <div class="wave waveTop" style="background-image: url(image/wave.png);"></div>
+        </div>
+        <div class="waveWrapperInner bgMiddle">
+            <div class="wave waveMiddle" style="background-image: url('image/wave-mid.png')"></div>
+        </div>
     </div>
-    <div class="waveWrapperInner bgMiddle">
-      <div class="wave waveMiddle" style="background-image: url('image/wave-mid.png')"></div>
-    </div>
-</div>
 
+    <!-- Info -->
     <section class="container" id="home">
         <div class="content scroll-scale">
             <span class="blur"></span>
             <span class="blur"></span>
-                <H1>สวัสดีครับ!</H1>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ผม <span class="highlight">นายวัชรพงศ์ มาลัง</span> อยู่ชั้นมัธยมศึกษาชั้นปีที่ 6 แผนการเรียนวิทย์ - คณิตโรงเรียนรัตนโกสินทร์สมโภชลาดกระบัง มีความสนใจในคณะวิทยาศาสตร์ สาขาวิทยาการคอมพิวเตอร์ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง
-                ในความคิดของผมเทคโนโลยีกับมนุษย์เป็นสิ่งที่เกิดมาเพื่อกันและกัน มนุษย์สร้างเทคโนโลยี เทคโนโลยีช่วยอำนวยความสะดวกให้กับมนุษย์
+            <H1>สวัสดีครับ!</H1>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ผม <span class="highlight">นายวัชรพงศ์ มาลัง</span>
+                อยู่ชั้นมัธยมศึกษาชั้นปีที่ 6 แผนการเรียนวิทย์ - คณิตโรงเรียนรัตนโกสินทร์สมโภชลาดกระบัง
+                มีความสนใจในคณะวิทยาศาสตร์ สาขาวิทยาการคอมพิวเตอร์ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง
+                ในความคิดของผมเทคโนโลยีกับมนุษย์เป็นสิ่งที่เกิดมาเพื่อกันและกัน มนุษย์สร้างเทคโนโลยี
+                เทคโนโลยีช่วยอำนวยความสะดวกให้กับมนุษย์
             </p>
             <details>
                 <summary>ข้อมูลเพิ่มเติม</summary>
-                    <div>
-                        <p >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="highlight">เหตุผล</span>ที่ผมเลือกศึกษาต่อ <span class="highlight">คณะวิทยาศาสตร์ สาขาวิทยาการคอมพิวเตอร์</span>เพราะว่าผมได้ศึกษาหลักสูตรของสาขานี้แล้วพบว่ามันตรงกับสิ่งที่ผมชอบ และต้องการเรียน ในตอนที่ผมเป็นเด็ก ผมมีความชอบในการศึกษาเทคโนโลยี สิ่งประดิษฐ์หรือสิ่งที่มีความน่าสนใจ ทำไมต้องเป็นสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบังเพราะว่า เป็นสถาบันชั้นนำทางด้านวิทยาศาสตร์เเละเทคโนโลยีของประเทศไทย
-                        </p>
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="highlight">แรงบัลดาลใจ</span>ที่ทำให้ผมสนใจที่จะศึกษาต่อ คือ ผมต้องการที่จะหาความรู้ในด้านนี้ เพื่อนำไปสร้างสิ่งต่างๆที่ผมเคยฝันไว้ในตอนเด็ก ผมอยากที่จะลองทำความฝันในวัยเด็กให้เป็นจริงสักครั้ง อาทิเช่น การสร้างสิ่งอำนวยความสะดวกที่จะจัดตารางเวลาให้เราอัตโนมัติ และผมต้องการลองศึกษาในสิ่งใหม่ๆ สิ่งที่ผมยังไม่เคยรู้ หากผมได้เข้าไปศึกษาในคณะสาขานี้แล้ว ผมเชื่อว่าผมสามารถทำสิ่งที่ผมเคยฝันไว้ในวัยเด็กได้อย่างแน่นอน
-                        </p>
-                        <p>ขอบคุณครับ</p>
-                    </div>
+                <div>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="highlight">เหตุผล</span>ที่ผมเลือกศึกษาต่อ <span
+                            class="highlight">คณะวิทยาศาสตร์
+                            สาขาวิทยาการคอมพิวเตอร์</span>เพราะว่าผมได้ศึกษาหลักสูตรของสาขานี้แล้วพบว่ามันตรงกับสิ่งที่ผมชอบ
+                        และต้องการเรียน ในตอนที่ผมเป็นเด็ก ผมมีความชอบในการศึกษาเทคโนโลยี
+                        สิ่งประดิษฐ์หรือสิ่งที่มีความน่าสนใจ
+                        ทำไมต้องเป็นสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบังเพราะว่า
+                        เป็นสถาบันชั้นนำทางด้านวิทยาศาสตร์เเละเทคโนโลยีของประเทศไทย
+                    </p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                            class="highlight">แรงบัลดาลใจ</span>ที่ทำให้ผมสนใจที่จะศึกษาต่อ คือ
+                        ผมต้องการที่จะหาความรู้ในด้านนี้ เพื่อนำไปสร้างสิ่งต่างๆที่ผมเคยฝันไว้ในตอนเด็ก
+                        ผมอยากที่จะลองทำความฝันในวัยเด็กให้เป็นจริงสักครั้ง อาทิเช่น
+                        การสร้างสิ่งอำนวยความสะดวกที่จะจัดตารางเวลาให้เราอัตโนมัติ และผมต้องการลองศึกษาในสิ่งใหม่ๆ
+                        สิ่งที่ผมยังไม่เคยรู้ หากผมได้เข้าไปศึกษาในคณะสาขานี้แล้ว
+                        ผมเชื่อว่าผมสามารถทำสิ่งที่ผมเคยฝันไว้ในวัยเด็กได้อย่างแน่นอน
+                    </p>
+                    <p>ขอบคุณครับ</p>
+                </div>
             </details>
         </div>
         <div class="image">
         </div>
     </section>
 
+    <!-- AboutMe -->
     <section class="container" id="aboutme">
         <h2 class="header">About me</h2>
         <div class="aboutme scroll-scale">
             <div class="personal">
                 <h4 class="information">ข้อมูลส่วนตัว</h4>
-                    <div class="subin">
-                        <span>ชื่อ : นายวัชรพงศ์ มาลัง</span>
-                        <p>ชื่อเล่น : นาย</p>
-                        <p>อายุ : 17</p>
-                        <p>วันเกิด : 27 พฤษภาคม 2549</p>
-                        <p>ศาสนา : อิสลาม</p>
-                        <p>สัญชาติ : ไทย</p>
-                    </div>
+                <div class="subin">
+                    <span>ชื่อ : นายวัชรพงศ์ มาลัง</span>
+                    <p>ชื่อเล่น : นาย</p>
+                    <p>อายุ : 17</p>
+                    <p>วันเกิด : 27 พฤษภาคม 2549</p>
+                    <p>ศาสนา : อิสลาม</p>
+                    <p>สัญชาติ : ไทย</p>
+                </div>
             </div>
             <div class="personal">
                 <h4 class="information">ที่อยู่</h4>
-                    <div class="subin">
-                        <span>102/653 ซอย เคหะร่มเกล้า 22 แขวง คลองสองต้นนุ่น เขตลาดกระบัง จังหวัดกรุงเทพมหานคร</span>
-                    </div>
+                <div class="subin">
+                    <span>102/653 ซอย เคหะร่มเกล้า 22 แขวง คลองสองต้นนุ่น เขตลาดกระบัง จังหวัดกรุงเทพมหานคร</span>
+                </div>
             </div>
             <div class="personal">
                 <h4 class="information">ครอบครัว</h4>
-                    <div class="subin">
-                        <span>บิดา : นายอนันต์ มาลัง</span>
-                        <p>อายุ : 49</p>
-                        <p>อาชีพ : รับจ้างทั่วไป</p>
-                        <p>มารดา : นางวรินทร มาลัง</p>
-                        <p>อายุ : 42</p>
-                        <p>อาชีพ : ค้าขาย</p>
-                    </div>
+                <div class="subin">
+                    <span>บิดา : นายอนันต์ มาลัง</span>
+                    <p>อายุ : 49</p>
+                    <p>อาชีพ : รับจ้างทั่วไป</p>
+                    <p>มารดา : นางวรินทร มาลัง</p>
+                    <p>อายุ : 42</p>
+                    <p>อาชีพ : ค้าขาย</p>
+                </div>
             </div>
         </div>
-        <!-- <div class="grid scroll-scale">
-            <div class="transcript">
-                <img src="image/transcript1.jpg">
-            </div>
-            <div class="transcript">
-                <img src="image/transcript2.jpg">
-            </div>
-        </div> -->
     </section>
 
+    <!-- Activity -->
     <section class="container" id="activity">
         <h2 class="header">Activities</h2>
         <p>Click on the image to display more information.</p>
-            <div class="actnn scroll-Bottom">
-                <div class="active-items" data-name="p-1">
-                    <img src="image/373074931_300407445957314_7602569525412134896_n.jpg">
-                    <p>เข้าแข่งขันกิจกรรมหุ่นยนต์ระดับสูง 
-                        ได้รับรางวัล<span style="color: #fff;">เหรียญทองแดง</span></p>
+        <div class="actnn scroll-Bottom">
+            <div class="active-items" data-name="p-1">
+                <img src="image/373074931_300407445957314_7602569525412134896_n.jpg">
+                <p>เข้าแข่งขันกิจกรรมหุ่นยนต์ระดับสูง
+                    ได้รับรางวัล<span style="color: #fff;">เหรียญทองแดง</span></p>
+            </div>
+            <div class="active-items" data-name="p-2">
+                <img src="image/thumbnail_dtac-YSLC-cyber-camp-2022-01-J01-2048x1152.jpg">
+                <p>DTAC YOUNG SAFE INTERNET</p>
+            </div>
+            <div class="active-items" data-name="p-3">
+                <img src="image/314028499_644121390533378_4664165473120322802_n.jpg">
+                <p>แข่งขันบอร์ดเกม 'Water Journey' หาวิธีจัดการน้ำอย่างยั่งยืน</p>
+            </div>
+            <div class="active-items" data-name="p-4">
+                <img src="image/1693826236813.jpg">
+                <p>อบรม การแปรรูปเนื้อสัตว์ และทัศนศึกษาด้านเทคโนโลยีการเกษตร</p>
+            </div>
+            <div class="active-items" data-name="p-5">
+                <img src="image/262311229_855389085140880_8384143772967581266_n.jpg">
+                <p>อบรมเชิงปฏิบัติการ "PROGRAMMING & BUILDING WORKSHOP"</p>
+            </div>
+            <div class="active-items" data-name="p-6">
+                <img src="image/1.jpg">
+                <p>อบรมการประกอบและควบคุมหุ่นยนต์</p>
+            </div>
+            <div class="active-items" data-name="p-7">
+                <img src="image/1692614992354.jpg" style="object-fit: fill;">
+                <p>กิจกรรมเขียนโปรแกรมควบคุมหุ่นยนต์ mbot ด้วย python</p>
+            </div>
+            <div class="active-items" data-name="p-8">
+                <img src="image/activity.jpg">
+                <p>กิจกรรม K-Engineering World Tour and Workshop 2023</p>
+            </div>
+            <div class="active-items" data-name="p-9">
+                <img src="image/activity.jpg">
+                <p>ค่าย "First Camp Pathway 3 to KMITL International Engineering Programs 2023"</p>
+            </div>
+            <div class="active-items" data-name="p-10">
+                <img src="image/activity.jpg">
+                <p>ค่าย "First Camp Pathway 3 to KMITL International Engineering Programs 2023"</p>
+            </div>
+        </div>
+
+        <!-- Card info -->
+        <div class="modal">
+            <div class="modal-content fade" data-target="p-1">
+                <div class="modal-img">
+                    <img src="image/1672155418170.jpg">
+                    <img src="image/DSC00219.JPG">
                 </div>
-                <div class="active-items" data-name="p-2">
-                    <img src="image/thumbnail_dtac-YSLC-cyber-camp-2022-01-J01-2048x1152.jpg">
-                    <p >DTAC YOUNG SAFE INTERNET</p>
-                </div>
-                <div class="active-items" data-name="p-3">
-                    <img src="image/314028499_644121390533378_4664165473120322802_n.jpg">
-                    <p>แข่งขันบอร์ดเกม 'Water Journey' หาวิธีจัดการน้ำอย่างยั่งยืน</p>
-                </div>
-                <div class="active-items" data-name="p-4">
-                    <img src="image/1693826236813.jpg">
-                    <p>อบรม การแปรรูปเนื้อสัตว์ และทัศนศึกษาด้านเทคโนโลยีการเกษตร</p>
-                </div>
-                <div class="active-items" data-name="p-5">
-                    <img src="image/262311229_855389085140880_8384143772967581266_n.jpg">
-                    <p>อบรมเชิงปฏิบัติการ "PROGRAMMING & BUILDING WORKSHOP"</p>
-                </div>
-                <div class="active-items" data-name="p-6">
-                    <img src="image/activity.jpg">
-                    <p>อบรมการประกอบและควบคุมหุ่นยนต์</p>
-                </div>
-                <div class="active-items" data-name="p-7">
-                    <img src="image/activity.jpg">
-                    <p>กิจกรรมเขียนโปรแกรมควบคุมหุ่นยนต์ mbot ด้วย python</p>
-                </div>
-                <div class="active-items" data-name="p-8">
-                    <img src="image/activity.jpg">
-                    <p>กิจกรรม K-Engineering World Tour and Workshop 2023</p>
-                </div>
-                <div class="active-items" data-name="p-9">
-                    <img src="image/activity.jpg">
-                    <p>ค่าย "First Camp Pathway 3 to KMITL International Engineering Programs 2023"</p>
-                </div>
-                <div class="active-items" data-name="p-10">
-                    <img src="image/activity.jpg">
-                    <p>ค่าย "First Camp Pathway 3 to KMITL International Engineering Programs 2023"</p>
+                <div class="modal-detail">
+                    <p style="font-size: 1.5rem;" style="font-weight: bolder;">งานศิลปะหัตถกรรมนักเรียน
+                        เขตพื้นที่การศึกษา ครั้งที่ 70</p>
+                    <p>&nbsp;&nbsp;&nbsp;กิจกรรม การแข่งขันหุ่นย์ระดับสูง ม.4-ม.6</p>
+                    <p> <span class="highlight">&nbsp;&nbsp;&nbsp;ผลที่ได้จากกิจกรรมนี้ :
+                        </span>ทำให้เกิดความรอบคอบมากขึ้นเพราะต้องทำงานที่แข่งขันกับเวลา และการวางแผนอย่างมีระบบ</p>
+                    <i class="fas fa-times"></i>
                 </div>
             </div>
-            
-            <div class="modal">
-                <div class="modal-content fade" data-target="p-1">
-                    <div class="modal-img">
-                        <img src="image/1672155418170.jpg">
-                        <img src="image/DSC00219.JPG">
-                    </div> 
-                        <div class="modal-detail">
-                            <p style="font-size: 1.5rem;" style="font-weight: bolder;">งานศิลปะหัตถกรรมนักเรียน เขตพื้นที่การศึกษา ครั้งที่ 70</p>
-                            <p>&nbsp;&nbsp;&nbsp;กิจกรรม การแข่งขันหุ่นย์ระดับสูง ม.4-ม.6</p>
-                            <p> <span class="highlight">&nbsp;&nbsp;&nbsp;ผลที่ได้จากกิจกรรมนี้ : </span>ทำให้เกิดความรอบคอบมากขึ้นเพราะต้องทำงานที่แข่งขันกับเวลา และการวางแผนอย่างมีระบบ</p>
-                            <i class="fas fa-times"></i>
-                        </div>
+            <div class="modal-content fade" data-target="p-2">
+                <div class="modal-img">
+                    <img src="image/Screenshot (89).png">
+                    <img src="image/Screenshot 2022-05-03 230832.png">
                 </div>
-                <div class="modal-content fade" data-target="p-2">
-                    <div class="modal-img">
-                        <img src="image/Screenshot (89).png">
-                        <img src="image/Screenshot 2022-05-03 230832.png">
-                    </div>
-                        <div class="modal-detail">
-                            <p style="font-size: 1.5rem;" style="font-weight: bolder;">DTAC YOUNG SAFE INTERNET LEADER CAMP</p>
-                            <p>&nbsp;&nbsp;&nbsp;การพัฒนานวัตกรรมเพื่อสังคมในการรับมือ และลดความเสี่ยงจากภัยคุกคามทางไซเบอร์</p>
-                            <p> <span class="highlight">&nbsp;&nbsp;&nbsp;ผลที่ได้จากกิจกรรมนี้ : </span>ได้พัฒนาทักษะการทำการร่วมกับผู้อื่น และการเสียสละเพื่อให้ผลงานได้เกิดขึ้น</p>
-                            <i class="fas fa-times"></i>
-                        </div>
+                <div class="modal-detail">
+                    <p style="font-size: 1.5rem;" style="font-weight: bolder;">DTAC YOUNG SAFE INTERNET LEADER CAMP</p>
+                    <p>&nbsp;&nbsp;&nbsp;การพัฒนานวัตกรรมเพื่อสังคมในการรับมือ และลดความเสี่ยงจากภัยคุกคามทางไซเบอร์</p>
+                    <p> <span class="highlight">&nbsp;&nbsp;&nbsp;ผลที่ได้จากกิจกรรมนี้ :
+                        </span>ได้พัฒนาทักษะการทำการร่วมกับผู้อื่น และการเสียสละเพื่อให้ผลงานได้เกิดขึ้น</p>
+                    <i class="fas fa-times"></i>
                 </div>
-                <div class="modal-content fade" data-target="p-3">
-                    <div class="modal-img">
-                        <img src="image/383900602_1043795906647892_640355370176569675_n.jpg">
-                        <img src="image/36o9GfzJVwzLCeiQI76R.jpg">
-                    </div>
-                        <div class="modal-detail">
-                            <p style="font-size: 1.5rem;" style="font-weight: bolder;">Water Journey</p>
-                            <p>&nbsp;&nbsp;&nbsp;เป็นงานที่ SN Group ร่วมกับ คณะวิศวกรรมศาสตร์ จุฬาลงกรณ์ มหาวิทยาลัย จัดขึ้นเพื่อระดมความเห็นเส้นทางบริหารจัดการน้ำภายใต้นวัตกรรมใหม่ๆ เพื่อลดการใช้น้ำและรักษาสิ่งแวดล้อม สร้างความตระหนักรู้แก่เยาวชนผ่าน Board Game สื่อการสอนยุคใหม่</p>
-                            <p> <span class="highlight">&nbsp;&nbsp;&nbsp;ผลที่ได้จากกิจกรรมนี้ : </span>ฝึกการบริหารจัดการทรัพยากรและเวลาที่มีอยู่อย่างจำกัดให้เกิดประโยชน์สูงสุด</p>
-                            <i class="fas fa-times"></i>
-                        </div>
-                </div>
-                <div class="modal-content fade" data-target="p-4">
-                    <div class="modal-img">
-                        <img src="image/Screenshot (89).png">
-                        <img src="image/20220623_103426.jpg" style="object-fit: fill;">
-                    </div>
-                        <div class="modal-detail">
-                            <p style="font-size: 1.5rem;" style="font-weight: bolder;">อบรมการแปรรูปเนื้อสัตว์ และทัศนศึกษาด้านเทคโนโลยีการเกษตร</p>
-                            <p>&nbsp;&nbsp;&nbsp;อธิบายวิธีการและขั้นตอนต่างๆในการแปรรูปเนื้อสัตว์ และพาชมเทคโนโลยีทางการเกษตรมากมาย</p>
-                            <p> <span class="highlight">&nbsp;&nbsp;&nbsp;ผลที่ได้จากกิจกรรมนี้ : </span>เรียนรู้วิธีการแปรรูปเนื้อสัตว์เบื้องต้น และได้รู้จักกับเทคโนโลยีทางการเกษตรในปัจจุบัน</p>
-                            <i class="fas fa-times"></i>
-                        </div>
-                </div>
-                <div class="modal-content fade" data-target="p-5">
-                    <div class="modal-img">
-                        <img src="image/Screenshot (89).png">
-                        <img src="image/58.png">
-                    </div>
-                        <div class="modal-detail">
-                            <p style="font-size: 1.5rem;" style="font-weight: bolder;">DTAC YOUNG SAFE INTERNET LEADER CAMP</p>
-                            <p>&nbsp;&nbsp;&nbsp;การพัฒนานวัตกรรมเพื่อสังคมในการรับมือ และลดความเสี่ยงจากภัยคุกคามทางไซเบอร์</p>
-                            <p> <span class="highlight">&nbsp;&nbsp;&nbsp;ผลที่ได้จากกิจกรรมนี้ : </span>ได้พัฒนาทักษะการทำการร่วมกับผู้อื่น และการเสียสละเพื่อให้ผลงานได้เกิดขึ้น</p>
-                            <i class="fas fa-times"></i>
-                        </div>
-                </div>
-                <div class="modal-content fade" data-target="p-6">
-                    <div class="modal-img">
-                        <img src="image/Screenshot (89).png">
-                        <img src="image/58.png">
-                    </div>
-                        <div class="modal-detail">
-                            <p style="font-size: 1.5rem;" style="font-weight: bolder;">DTAC YOUNG SAFE INTERNET LEADER CAMP</p>
-                            <p>&nbsp;&nbsp;&nbsp;การพัฒนานวัตกรรมเพื่อสังคมในการรับมือ และลดความเสี่ยงจากภัยคุกคามทางไซเบอร์</p>
-                            <p> <span class="highlight">&nbsp;&nbsp;&nbsp;ผลที่ได้จากกิจกรรมนี้ : </span>ได้พัฒนาทักษะการทำการร่วมกับผู้อื่น และการเสียสละเพื่อให้ผลงานได้เกิดขึ้น</p>
-                            <i class="fas fa-times"></i>
-                        </div>
-                </div>
-                <div class="modal-content fade" data-target="p-7">
-                    <div class="modal-img">
-                        <img src="image/Screenshot (89).png">
-                        <img src="image/58.png">
-                    </div>
-                        <div class="modal-detail">
-                            <p style="font-size: 1.5rem;" style="font-weight: bolder;">DTAC YOUNG SAFE INTERNET LEADER CAMP</p>
-                            <p>&nbsp;&nbsp;&nbsp;การพัฒนานวัตกรรมเพื่อสังคมในการรับมือ และลดความเสี่ยงจากภัยคุกคามทางไซเบอร์</p>
-                            <p> <span class="highlight">&nbsp;&nbsp;&nbsp;ผลที่ได้จากกิจกรรมนี้ : </span>ได้พัฒนาทักษะการทำการร่วมกับผู้อื่น และการเสียสละเพื่อให้ผลงานได้เกิดขึ้น</p>
-                            <i class="fas fa-times"></i>
-                        </div>
-                </div>
-                <div class="modal-content fade" data-target="p-8">
-                    <div class="modal-img">
-                        <img src="image/Screenshot (89).png">
-                        <img src="image/58.png">
-                    </div>
-                        <div class="modal-detail">
-                            <p style="font-size: 1.5rem;" style="font-weight: bolder;">DTAC YOUNG SAFE INTERNET LEADER CAMP</p>
-                            <p>&nbsp;&nbsp;&nbsp;การพัฒนานวัตกรรมเพื่อสังคมในการรับมือ และลดความเสี่ยงจากภัยคุกคามทางไซเบอร์</p>
-                            <p> <span class="highlight">&nbsp;&nbsp;&nbsp;ผลที่ได้จากกิจกรรมนี้ : </span>ได้พัฒนาทักษะการทำการร่วมกับผู้อื่น และการเสียสละเพื่อให้ผลงานได้เกิดขึ้น</p>
-                            <i class="fas fa-times"></i>
-                        </div>
-                </div>
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
+            <div class="modal-content fade" data-target="p-3">
+                <div class="modal-img">
+                    <img src="image/383900602_1043795906647892_640355370176569675_n.jpg">
+                    <img src="image/36o9GfzJVwzLCeiQI76R.jpg">
+                </div>
+                <div class="modal-detail">
+                    <p style="font-size: 1.5rem;" style="font-weight: bolder;">Water Journey</p>
+                    <p>&nbsp;&nbsp;&nbsp;เป็นงานที่ SN Group ร่วมกับ คณะวิศวกรรมศาสตร์ จุฬาลงกรณ์ มหาวิทยาลัย
+                        จัดขึ้นเพื่อระดมความเห็นเส้นทางบริหารจัดการน้ำภายใต้นวัตกรรมใหม่ๆ
+                        เพื่อลดการใช้น้ำและรักษาสิ่งแวดล้อม สร้างความตระหนักรู้แก่เยาวชนผ่าน Board Game
+                        สื่อการสอนยุคใหม่</p>
+                    <p> <span class="highlight">&nbsp;&nbsp;&nbsp;ผลที่ได้จากกิจกรรมนี้ :
+                        </span>ฝึกการบริหารจัดการทรัพยากรและเวลาที่มีอยู่อย่างจำกัดให้เกิดประโยชน์สูงสุด</p>
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="modal-content fade" data-target="p-4">
+                <div class="modal-img">
+                    <img src="image/1693826248786.jpg">
+                    <img src="image/20220623_103426.jpg" style="object-fit: fill;">
+                </div>
+                <div class="modal-detail">
+                    <p style="font-size: 1.5rem;" style="font-weight: bolder;">อบรมการแปรรูปเนื้อสัตว์
+                        และทัศนศึกษาด้านเทคโนโลยีการเกษตร</p>
+                    <p>&nbsp;&nbsp;&nbsp;อธิบายวิธีการและขั้นตอนต่างๆในการแปรรูปเนื้อสัตว์
+                        และพาชมเทคโนโลยีทางการเกษตรมากมาย</p>
+                    <p> <span class="highlight">&nbsp;&nbsp;&nbsp;ผลที่ได้จากกิจกรรมนี้ :
+                        </span>เรียนรู้วิธีการแปรรูปเนื้อสัตว์เบื้องต้น และได้รู้จักกับเทคโนโลยีทางการเกษตรในปัจจุบัน
+                    </p>
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="modal-content fade" data-target="p-5">
+                <div class="modal-img">
+                    <img src="image/262867463_340688424055646_3555209015357253978_n.jpg" style="object-fit: fill;">
+                    <img src="image/264498672_4582727528514410_1811324368207216007_n.jpg">
+                </div>
+                <div class="modal-detail">
+                    <p style="font-size: 1.5rem;" style="font-weight: bolder;">PROGRAMMING & BUILDING WORKSHOP<br>ในรายการ First Tech Challenge</p>
+                    <p>&nbsp;&nbsp;&nbsp;FIRST® Tech Challenge THAILAND เป็นส่วนหนึ่งของชุมชนหุ่นยนต์ระดับโลกที่เตรียมเยาวชนสำหรับอนาคตซึ่งหลักการของ FIRST® มุ่งมั่นอย่างต่อเนื่องเพื่อส่งเสริมให้นักเรียนมีความมั่นใจและทักษะที่จำเป็นต่อการเปลี่ยนแปลงของโลก</p>
+                    <p> <span class="highlight">&nbsp;&nbsp;&nbsp;ผลที่ได้จากกิจกรรมนี้ :
+                        </span>ได้พัฒนาทักษะทางด้านหุ่นยนต์ เข้าใจหลักการทำงานของหุ่นยนต์เบื้องต้น</p>
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="modal-content fade" data-target="p-6">
+                <div class="modal-img" style="display: flex;">
+                    <img src="image/2.jpg">
+                </div>
+                <div class="modal-detail">
+                    <p style="font-size: 1.5rem;" style="font-weight: bolder;">อบรมการประกอบและควบคุมหุ่นยนต์</p>
+                    <p>&nbsp;&nbsp;&nbsp;อบรมเพื่อพัฒนาทักษะการประกอบและควบคุมหุ่นยนต์</p>
+                    <p> <span class="highlight">&nbsp;&nbsp;&nbsp;ผลที่ได้จากกิจกรรมนี้ :
+                        </span>ได้พัฒนาทักษะการประกอบและควบคุมหุ่นยนต์</p>
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="modal-content fade" data-target="p-7">
+                <div class="modal-img" style="display: flex;">
+                    <img src="image/1692614992354.jpg" style="object-fit: fill;">
+                </div>
+                <div class="modal-detail">
+                    <p style="font-size: 1.5rem;" style="font-weight: bolder;">กิจกรรมเขียนโปรแกรมควบคุมหุ่นยนต์ mbot ด้วย python</p>
+                    <p> <span class="highlight">&nbsp;&nbsp;&nbsp;ผลที่ได้จากกิจกรรมนี้ :
+                        </span>พัฒนาทักษะทักษะการเขียนโปรแกรมเพื่อควบคุมหุ่นยนต์ด้วยภาษา python และได้รู้จักหุ่นยนต์ mbot</p>
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="modal-content fade" data-target="p-8">
+                <div class="modal-img">
+                    <img src="image/Screenshot (89).png">
+                    <img src="image/58.png">
+                </div>
+                <div class="modal-detail">
+                    <p style="font-size: 1.5rem;" style="font-weight: bolder;">DTAC YOUNG SAFE INTERNET LEADER CAMP</p>
+                    <p>&nbsp;&nbsp;&nbsp;การพัฒนานวัตกรรมเพื่อสังคมในการรับมือ และลดความเสี่ยงจากภัยคุกคามทางไซเบอร์</p>
+                    <p> <span class="highlight">&nbsp;&nbsp;&nbsp;ผลที่ได้จากกิจกรรมนี้ :
+                        </span>ได้พัฒนาทักษะการทำการร่วมกับผู้อื่น และการเสียสละเพื่อให้ผลงานได้เกิดขึ้น</p>
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="modal-content fade" data-target="p-9">
+                <div class="modal-img">
+                    <img src="image/Screenshot (89).png">
+                    <img src="image/58.png">
+                </div>
+                <div class="modal-detail">
+                    <p style="font-size: 1.5rem;" style="font-weight: bolder;">DTAC YOUNG SAFE INTERNET LEADER CAMP</p>
+                    <p>&nbsp;&nbsp;&nbsp;การพัฒนานวัตกรรมเพื่อสังคมในการรับมือ และลดความเสี่ยงจากภัยคุกคามทางไซเบอร์</p>
+                    <p> <span class="highlight">&nbsp;&nbsp;&nbsp;ผลที่ได้จากกิจกรรมนี้ :
+                        </span>ได้พัฒนาทักษะการทำการร่วมกับผู้อื่น และการเสียสละเพื่อให้ผลงานได้เกิดขึ้น</p>
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="modal-content fade" data-target="p-10">
+                <div class="modal-img">
+                    <img src="image/Screenshot (89).png">
+                    <img src="image/58.png">
+                </div>
+                <div class="modal-detail">
+                    <p style="font-size: 1.5rem;" style="font-weight: bolder;">DTAC YOUNG SAFE INTERNET LEADER CAMP</p>
+                    <p>&nbsp;&nbsp;&nbsp;การพัฒนานวัตกรรมเพื่อสังคมในการรับมือ และลดความเสี่ยงจากภัยคุกคามทางไซเบอร์</p>
+                    <p> <span class="highlight">&nbsp;&nbsp;&nbsp;ผลที่ได้จากกิจกรรมนี้ :
+                        </span>ได้พัฒนาทักษะการทำการร่วมกับผู้อื่น และการเสียสละเพื่อให้ผลงานได้เกิดขึ้น</p>
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+        </div>
     </section>
 
+    <!-- Certificate -->
     <section class="container" id="certificate">
         <h2 class="header">Certificates</h2>
-        <div class="certificates-wrap  scroll-Bottom">
-            <a class="fa fa-angle-left" id="backBtn"></a>
-            <div class="certificate">
-                <div class="certificate-items">
-                    <img class="certificates-img" src="image/rsl race.jpg">
-                    <p>งานศิลปะหัตถกรรมนักเรียน <br> เขตพื้นที่การศึกษา ครั้งที่ 70</p>
-                </div>
-                <div class="certificate-items">
-                    <img class="certificates-img" src="image/chura.jpg">
-                    <p>กิจกรรม "Water Journey" บริบทใหม่ของสื่อเพื่อบริหารจัดการน้ำยั่งยืน</p>
-                </div>
-                <div class="certificate-items">
-                    <img class="certificates-img" src="image/Yslc4_cert-106_page-0001.jpg">
-                    <p>โครงการ dtac Young Safe Internet Leader Cyber Camp</p>
-                </div>
-                <div class="certificate-items">
-                    <img class="certificates-img" src="image/ktmil.jpg">
-                    <p>อบรมการแปรรูปเนื้อสัตว์ และทัศนศึกษาด้านเทคโนโลยีการเกษตร</p>
-                </div>
-                <div class="certificate-items">
-                    <img class="certificates-img" src="image/frist.jpg">
-                    <p >อบรมเชิงปฏิบัติการ "PROGRAMMING & BUILDING WORKSHOP"</p>
-                </div>
-                <div class="certificate-items">
-                    <img class="certificates-img" src="image/lnw.jpg">
-                    <p>อบรมการประกอบและควบคุมหุ่นยนต์</p>
-                </div>
-                <div class="certificate-items">
-                    <img class="certificates-img" src="image/certificate_Key_68_นายวัชรพงศ์  มาลัง_48245.png">
-                    <p>กิจกรรมเขียนโปรแกรมควบคุม<br>หุ่นยนต์ mbot ด้วย python</p>
-                </div>
-                <div class="certificate-items">
-                    <img class="certificates-img" src="image/certificate_Key_67_วัชรพงศ์ มาลัง_44372.png">
-                    <p>กิจกรรม K-Engineering World Tour and Workshop 2023</p>
-                </div>
-                <div class="certificate-items">
-                    <img class="certificates-img" src="image/58.png">
-                    <p>ค่าย "First Camp Pathway 3 to KMITL International Engineering Programs 2023"</p>
-                </div>
+        <div class="certificate scroll-Bottom">
+            <div class="certificate-items">
+                <img class="certificates-img" src="image/rsl race.jpg">
+                <p>งานศิลปะหัตถกรรมนักเรียน <br> เขตพื้นที่การศึกษา ครั้งที่ 70</p>
             </div>
-            <a class="fa fa-angle-right" id="nextBtn"></a>
-        </div> 
+            <div class="certificate-items">
+                <img class="certificates-img" src="image/chura.jpg">
+                <p>กิจกรรม "Water Journey" บริบทใหม่ของสื่อเพื่อบริหารจัดการน้ำยั่งยืน</p>
+            </div>
+            <div class="certificate-items">
+                <img class="certificates-img" src="image/Yslc4_cert-106_page-0001.jpg">
+                <p>โครงการ dtac Young Safe Internet Leader Cyber Camp</p>
+            </div>
+            <div class="certificate-items">
+                <img class="certificates-img" src="image/ktmil.jpg">
+                <p>อบรมการแปรรูปเนื้อสัตว์ และทัศนศึกษาด้านเทคโนโลยีการเกษตร</p>
+            </div>
+            <div class="certificate-items">
+                <img class="certificates-img" src="image/frist.jpg">
+                <p>อบรมเชิงปฏิบัติการ "PROGRAMMING & BUILDING WORKSHOP"</p>
+            </div>
+            <div class="certificate-items">
+                <img class="certificates-img" src="image/lnw.jpg">
+                <p>อบรมการประกอบและควบคุมหุ่นยนต์</p>
+            </div>
+            <div class="certificate-items">
+                <img class="certificates-img" src="image/certificate_Key_68_นายวัชรพงศ์  มาลัง_48245.png">
+                <p>กิจกรรมเขียนโปรแกรมควบคุม<br>หุ่นยนต์ mbot ด้วย python</p>
+            </div>
+            <div class="certificate-items">
+                <img class="certificates-img" src="image/certificate_Key_67_วัชรพงศ์ มาลัง_44372.png">
+                <p>กิจกรรม K-Engineering World Tour and Workshop 2023</p>
+            </div>
+            <div class="certificate-items">
+                <img class="certificates-img" src="image/58.png">
+                <p>ค่าย "First Camp Pathway 3 to KMITL International Engineering Programs 2023"</p>
+            </div>
+        </div>
     </section>
 
+    <!-- Footer -->
     <footer class="container1">
         <span class="blur"></span>
         <span class="blur"></span>
@@ -315,7 +369,8 @@
         <div class="colum">
             <p>Contact</p>
             <div class="socials">
-                <a href="https://www.facebook.com/profile.php?id=100069537291054" target="_blank"><i class="ri-facebook-circle-line"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100069537291054" target="_blank"><i
+                        class="ri-facebook-circle-line"></i></a>
                 <a href="https://www.instagram.com/wa.chxan/" target="_blank"><i class="ri-instagram-line"></i></a>
                 <a href="https://line.me/ti/p/4TZVm1vTj_" target="_blank"><i class="ri-line-line"></i></a>
                 <a href="https://github.com/Watcharaphong09" target="_blank"><i class="ri-github-line"></i></a>
@@ -329,6 +384,9 @@
     <div id="myBtn" class="to-top">
         <i class="fas fa-chevron-circle-up" onclick="topFunction()"></i>
     </div>
-<script src="script.js"></script>
+
+    <!-- script -->
+    <script src="script.js"></script>
 </body>
+
 </html>

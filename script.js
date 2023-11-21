@@ -65,33 +65,6 @@ window.addEventListener("scroll", () => {
     });
 });
 
-let slideIndex = getAttribute("data-target");
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-    showSlides((slideIndex += n));
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-    showSlides((slideIndex = n));
-}
-
-function showSlides(n) {
-    let i;
-    let slides = document.getElementsByClassName("modal-content");
-    if (n > slides.length) {
-        slideIndex = 1;
-    }
-    if (n < 1) {
-        slideIndex = slides.length;
-    }
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    slides[slideIndex - 1].style.display = "block";
-}
 
 // Get the button:
 let mybutton = document.getElementById("myBtn");
@@ -135,10 +108,6 @@ scrollLeft.forEach((el) => obsever.observe(el));
 
 const scrollRight = document.querySelectorAll(".scroll-right");
 scrollRight.forEach((el) => obsever.observe(el));
-
-let srcollContainer = document.querySelector(".certificate");
-let backBtn = document.getElementById("backBtn");
-let nextBtn = document.getElementById("nextBtn");
 
 srcollContainer.addEventListener("wheel", (evt) => {
     evt.preventDefault();
